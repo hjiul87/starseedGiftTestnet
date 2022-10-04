@@ -23,7 +23,7 @@ export default function Header(props) {
   }, [account, userProfile]);
 
   function logOut(params) {
-    // remove userprofile and logout from react moralis
+    // remove userprofile and logout from react moralis bla bla
     dispatch(logUserProfile(null));
     if (isAuthenticated) {
       logout();
