@@ -30,7 +30,7 @@ const routes = [
   },
   {
     path: '*',
-    element: <Navigate to="404" />,
+    element: <Navigate to="/welcome" />,
   },
 ];
 

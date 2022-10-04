@@ -54,6 +54,7 @@ function UserProfilePage(props) {
   const [socialMediaLink, setSocialMediaLink] = React.useState('');
   const [userEmail, setUserEmail] = React.useState('');
   const [userAnswers, setUserAnswers] = React.useState([]);
+  const baseUrl =  useSelector((state) => state.gameData.baseUrl);
 
   const quizzData = {
     1: [
@@ -384,7 +385,7 @@ function UserProfilePage(props) {
   function finalProfileCard() {
     console.log('user profile : ', userProfile);
 
-    const referRoot = 'http://localhost:3000/login?';
+    const referRoot = `${baseUrl}/login?`;
 
     const puid = userProfile.uid;
     const refAddress = userProfile.user;

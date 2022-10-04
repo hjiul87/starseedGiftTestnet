@@ -66,6 +66,7 @@ function InventoryPage(props) {
   const gameIsPaused = useSelector((state) => state.gameData.gameIsPaused);
   const userProfile = useSelector((state) => state.gameData.userProfile);
   const polygonRatesAddress = useSelector((state) => state.gameData.polygonRatesAddress);
+  const baseUrl =  useSelector((state) => state.gameData.baseUrl);
 
   const stationContractABI = useSelector((state) => state.gameData.stationContractABI);
   const controllerContractAbi = useSelector((state) => state.gameData.controllerContractAbi);
@@ -806,7 +807,7 @@ function InventoryPage(props) {
                     <Button
                       onClick={() => {
                         setSelectedGiftCardLink(
-                          `http://localhost:3000/claim?code=${giftCardData.id}`
+                          `${baseUrl}/claim?code=${giftCardData.id}`
                         );
                         setOpenCoolNftCard(true);
                       }}
