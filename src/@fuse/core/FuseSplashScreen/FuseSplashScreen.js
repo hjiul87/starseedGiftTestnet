@@ -7,6 +7,7 @@ function FuseSplashScreen() {
       <div className="logo">
         <img width="128" src="/starseedGiftTestnet/assets/images/starseed/logo.png" alt="logo" />
       </div>
+      <span>Welcome to the Starseed Gift Program </span>
       <Box
         id="spinner"
         sx={{
