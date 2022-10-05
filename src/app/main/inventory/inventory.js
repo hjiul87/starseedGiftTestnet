@@ -255,7 +255,7 @@ function InventoryPage(props) {
                   >
                     <img
                       alt="waiting cats"
-                      src="assets/images/starseed/waitingCats.gif"
+                      src="/starseedGiftTestnet/assets/images/starseed/waitingCats.gif"
                       width="80%"
                     />
                   </Grid>
@@ -689,7 +689,7 @@ function InventoryPage(props) {
             <Box
               id="coolGiftCard"
               style={{
-                backgroundImage: `url("assets/images/starseed/giftCardBG1.png")`,
+                backgroundImage: `url("starseedGiftTestnet/assets/images/starseed/giftCardBG1.png")`,
                 backgroundSize: 'cover',
                 minWidth: '483px',
                 minHeight: '322px',

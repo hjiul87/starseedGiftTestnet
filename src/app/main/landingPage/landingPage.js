@@ -202,7 +202,7 @@ function LandingPage(props) {
                     className="coolCard"
                   >
                     <Grid container direction="column" justifyContent="center" alignItems="center">
-                      <img width="128" src="assets/images/starseed/logo.png" alt="logo" />
+                      <img width="128" src="/starseedGiftTestnet/assets/images/starseed/logo.png" alt="logo" />
 
                       <Typography
                         variant="h6"
@@ -291,7 +291,7 @@ function LandingPage(props) {
                     <Grid container justifyContent="center" alignItems="center">
                       <img
                         width="10%"
-                        src="assets/images/starseed/metamask-logo.svg"
+                        src="/starseedGiftTestnet/assets/images/starseed/metamask-logo.svg"
                         alt="logoMetamask"
                       />
                       <Button
@@ -320,7 +320,7 @@ function LandingPage(props) {
                       {`The polygon network will be automatically added to your metamask when you visit this page (confirm inside your metamask plugin if the pop up did not show.)
                                     If nothing happens, make sure that you are logged in your metamask wallet and refresh this page.`}
                     </Typography>
-                    <img src="assets/images/starseed/polygon-logo.png" alt="logoPolygon" />
+                    <img src="/starseedGiftTestnet/assets/images/starseed/polygon-logo.png" alt="logoPolygon" />
                   </Grid>
                 </Card>
               </Grid>

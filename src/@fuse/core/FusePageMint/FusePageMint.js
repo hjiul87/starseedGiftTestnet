@@ -18,7 +18,7 @@ const Root = styled('div')(({ theme, ...props }) => ({
   height: 'auto',
   backgroundColor: theme.palette.background.default,
   // backgroundColor: 'green',
-  backgroundImage: `url("assets/images/starseed/homeBg.jpg")`,  
+  backgroundImage: `url("starseedGiftTestnet/assets/images/starseed/homeBg.jpg")`,  
   // backgroundSize: "100%",
   backgroundSize: "cover",
 
@@ -34,7 +34,7 @@ const Root = styled('div')(({ theme, ...props }) => ({
     minWidth: 0,
     height: '100%',
     backgroundColor: theme.palette.background.default,
-    backgroundImage: `url("assets/images/starseed/homeBg.jpg")`,  
+    backgroundImage: `url("starseedGiftTestnet/assets/images/starseed/homeBg.jpg")`,  
     backgroundSize: "cover",
 
     ...(props.scroll === 'content' && {

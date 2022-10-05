@@ -52,7 +52,7 @@ const App = () => {
     <MoralisProvider appId={appId} serverUrl={serverUrl}>
       <FuseTheme theme={mainTheme} direction={langDirection}>
         <AuthProvider>
-          <BrowserRouter>
+          <BrowserRouter basename='/starseedGiftTestnet'>
             <FuseAuthorization
               userRole={user && user.role ?user.role:['visitor']}
               loginRedirectUrl={settingsConfig.loginRedirectUrl}

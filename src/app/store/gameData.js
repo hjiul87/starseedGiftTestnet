@@ -60,7 +60,7 @@ const gameDataSlice = createSlice({
   name: 'gameData',  
   initialState: {
     admins:['0x599ae0c9bccb202778022efdd0eda5ebc9ee8d69'],
-    baseUrl : 'http://hjiul87.github.io',
+    baseUrl : 'http://hjiul87.github.io/starseedGiftTestnet',
     // baseUrl : 'http://localhost:3000',
     polygonRatesAddress:'https://gasstation-mainnet.matic.network/v2', // mainnet
     // chainIdtest : "0x89", // "mainnet"

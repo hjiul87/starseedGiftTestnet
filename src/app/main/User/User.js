@@ -204,7 +204,7 @@ function UserProfilePage(props) {
                   >
                     <img
                       alt="waiting cats"
-                      src="assets/images/starseed/waitingCats.gif"
+                      src="/starseedGiftTestnet/assets/images/starseed/waitingCats.gif"
                       width="80%"
                     />
                   </Grid>

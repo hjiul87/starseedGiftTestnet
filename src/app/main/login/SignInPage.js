@@ -92,7 +92,7 @@ function SignInPage() {
                   >
                     <img
                       alt="waiting cats"
-                      src="assets/images/starseed/waitingCats.gif"
+                      src="/starseedGiftTestnet/assets/images/starseed/waitingCats.gif"
                       width="80%"
                     />
                   </Grid>
@@ -226,7 +226,7 @@ function SignInPage() {
     >
       <img
         className="w-48"
-        src="assets/images/starseed/logo.png"
+        src="/starseedGiftTestnet/assets/images/starseed/logo.png"
         alt="logo"
         style={{
           display: 'block',
