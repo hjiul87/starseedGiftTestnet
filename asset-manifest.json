@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/starseedGiftTestnet/static/css/main.810106d4.css",
-    "main.js": "/starseedGiftTestnet/static/js/main.e9def672.js",
+    "main.js": "/starseedGiftTestnet/static/js/main.5a893714.js",
     "static/js/978.a89f24d1.chunk.js": "/starseedGiftTestnet/static/js/978.a89f24d1.chunk.js",
     "static/js/932.2825d7ad.chunk.js": "/starseedGiftTestnet/static/js/932.2825d7ad.chunk.js",
     "static/js/510.d4ed355a.chunk.js": "/starseedGiftTestnet/static/js/510.d4ed355a.chunk.js",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.810106d4.css",
-    "static/js/main.e9def672.js"
+    "static/js/main.5a893714.js"
   ]
 }
